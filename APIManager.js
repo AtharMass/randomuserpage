@@ -1,5 +1,5 @@
 const NUMS_OF_USERS = 7
-const NUMS_OF_POKEMON = 949
+const NUMS_OF_POKEMON = 600
 
 class APIManager {
     tempData = {}
@@ -15,7 +15,7 @@ class APIManager {
                 method: "GET",
                 url: 'https://randomuser.me/api/?results=7',
                 success: function (data) {
-                    tempdata.users = usersData(data)
+                    this.data.users = usersData(data)
                     console.log("SUCCESS GET USERS DATA")
                 }
                 , error: function (text) {

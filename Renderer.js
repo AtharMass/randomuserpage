@@ -8,7 +8,7 @@ class Renderer {
         $(".quote-container").empty()
         $(".user-container").empty()
 
-        this.fri_container = $(".friends-container")
+        this.fri_container = $(".friend-container")
         this.poke_container = $(".pokemon-container")
         this.about_container = $(".meat-container")
         this.quot_container = $(".quote-container")
